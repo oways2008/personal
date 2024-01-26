@@ -1,0 +1,140 @@
+ :root{
+    --main-color:#0094ff;
+    --bg-color: rgba(0,0,0,.5);
+}
+ body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background: url(IMG-20231030-WA0040.jpg);
+    background-size: cover;
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 540px;
+    background: rgba(0,0,0,.5);
+    border-radius: 15px;
+  overflow-y: scroll;
+    box-sizing: border-box;
+}
+h2{
+    color:#fff;
+    text-align: center;
+    margin-top: 30px;
+
+}
+input[type="text"],[type="email"],[type="password"],[type="number"],[type="image"]{
+    position: absolute;
+    outline: none;
+    border: none;
+    width: 250px;
+    height: 35px;
+    border-bottom: 2px solid#0094ff;
+    background: none;
+    padding: 5px;
+    color:white;
+    
+}
+#first{
+    top: 100px;
+    left: 50px;
+
+}
+#second{
+    top: 180px;
+    left: 50px;
+}
+#third{
+    top: 260px;
+    left: 50px;
+}
+#four{
+    top: 340px;
+    left: 50px;
+}
+#num1{
+    top: 420px;
+    left: 15%;
+}
+#num2{
+    top: 520px;
+    left: 15%;
+    
+}
+#num3{
+    top: 600px;
+    left: 15%;
+    
+}
+#num4{
+    top: 680px;
+    left: 15%;
+    
+}
+#num5{
+    top: 760px;
+    left: 15%;
+    
+}
+#email{
+    top: 840px;
+    left: 15%;
+}
+
+#pass1{
+    top: 920px;
+    left: 50px;
+}
+
+#pass2{
+    top: 1000px;
+    left: 50px;
+}
+#img{
+    top: 1080px;
+    left: 15%;
+}
+
+
+input[type=submit]{
+    position: absolute;
+    top: 1140px;
+    left: 110px;
+    width: 130px;
+    height: 35px;
+    background: #0077ff;
+    border: none;
+    outline: none;
+    color:#fff;
+    border-radius: 15px;
+    font-size: 20px;
+
+
+}
+
+input[type=submit]:hover{
+    background: #fff;
+    color: #0077ff;
+
+}
+p{
+    position: absolute;
+    top: 360px;
+    left: 50px;
+    color: #fff;
+    cursor: pointer;
+    
+}
+p:hover{
+    color: #72c9ff;
+
+
+
+}
+::placeholder{
+    color:#fff;
+}
